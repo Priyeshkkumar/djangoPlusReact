@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "webpack --mode development --watch ./tutorial/frontend/src/index.js --output-path ./tutorial/frontend/static/frontend/",
     "build": "webpack --mode production ./tutorial/frontend/src/index.js --output-path ./tutorial/frontend/static/frontend/"
-
   },
   "keywords": [],
   "author": "",
@@ -23,6 +22,10 @@
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
   }
 }
